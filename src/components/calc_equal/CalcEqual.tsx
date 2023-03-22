@@ -2,7 +2,7 @@ import React from 'react';
 import s from './CalcEqual.module.scss'
 import { ItemTypes, ModeType } from '../Calculator';
 import { useAppDispatch, useAppSelector } from '../../hooks/HooksForState';
-import { EqualThunk, setEqual } from '../../state_manager/reducers/calc_reducer';
+import { EqualThunk } from '../../state_manager/reducers/calc_reducer';
 
 type CalcEqualType = {
     board: ModeType
@@ -27,7 +27,6 @@ export const CalcEqual = ({ board, draggable, item, setCurrentBoard, setCurrentI
     }
 
     const counting_equal = (display_count: string, first_val: number | null, choise_operator: number | null): void => {
-
         dispatch(EqualThunk({ display_value: display_count, choise_operator_id: choise_operator, first_val }))
 
     }
