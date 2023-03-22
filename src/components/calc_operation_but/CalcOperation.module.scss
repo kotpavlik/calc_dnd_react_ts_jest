@@ -1,0 +1,25 @@
+.op_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 10px 0 10px 0;
+    gap: 10px;
+    user-select: none;
+    .op_but {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 50px;
+        height: 46px;
+        background: #FFFFFF;
+        border: 1px solid #E2E3E5;
+        border-radius: 6px;
+    }
+}

@@ -1,0 +1,26 @@
+.calculator_app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .side_bar {
+        position: relative;
+        margin: 10px;
+        width: 243px;
+        height: 448px;
+        .run_time_opacity_wrapper {
+            transition: .5s;
+        }
+    }
+    .calc_constructor {
+        position: relative;
+        box-sizing: border-box;
+        margin: 10px;
+        border: 2px dashed #C4C4C4;
+        border-radius: 6px;
+        width: 243px;
+        height: 448px;
+    }
+}

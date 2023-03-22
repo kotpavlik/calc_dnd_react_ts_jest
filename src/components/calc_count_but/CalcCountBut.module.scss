@@ -1,0 +1,37 @@
+.count_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 240px;
+    height: 224px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    gap: 8px;
+    margin: 10px 0 10px 0;
+    user-select: none;
+    .but {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 72px;
+        height: 48px;
+        font-size: 14px;
+        font-weight: 500;
+        background: #FFFFFF;
+        border: 1px solid #E2E3E5;
+        border-radius: 6px;
+    }
+    .zero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 152px;
+        height: 48px;
+        font-size: 14px;
+        font-weight: 500;
+        background: #FFFFFF;
+        border: 1px solid #E2E3E5;
+        border-radius: 6px;
+    }
+}
